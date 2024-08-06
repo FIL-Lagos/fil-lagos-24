@@ -17,9 +17,11 @@ const HeaderNav = () => {
         <p>SPEAKERS</p>
         <p>AGENDA</p>
       </div>
-      <button className="hidden md:block bg-[#0A48C0] text-white rounded-full p-2 px-10 border-2 border-[#52F4FE]">
-        REGISTER
-      </button>
+      <a href="https://lu.ma/FIL-LAGOS" target='_blank'>
+        <button className="hidden md:block bg-[#0A48C0] text-white rounded-full p-2 px-10 border-2 border-[#52F4FE]">
+          REGISTER
+        </button>
+      </a>
       <div className="md:hidden flex items-center">
         <button onClick={toggleMenu} className="text-white">
           <svg

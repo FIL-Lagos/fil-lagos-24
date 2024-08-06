@@ -16,7 +16,7 @@ function App() {
           <div className='my-auto lg:order-1 lg:w-[60%] lg:p-10 p-6'>
             <p className='text-[30px]'>ABOUT</p>
             <h1 className='lg:text-[50px] text-5xl font-bold my-2'>FIL LAGOS</h1>
-            <p className='lg:text-[20px]'>Step into the forefront of innovation! The Lagos Filecoin Event is a dynamic gathering that fuels discussions on decentralization and blockchain technology. Explore cutting-edge advancements, connect with industry leaders, and play a vital role in shaping the future of digital ecosystems. Dive into the heart of Filecoins transformative impact on decentralized storage, elevate your understanding, network with pioneers, and embrace the future at the Lagos Filecoin Event.</p>
+            <p className='lg:text-[20px]'>At FIL-Lagos.io, we will explore the transformative potential of decentralized storage and AI integration within the Filecoin ecosystem. This event is designed to provide insights into how these technologies are redefining the digital economy, driving sustainable growth, and creating new opportunities for innovation in Africa.            </p>
           </div>
           <div className='lg:w-[40%] lg:order-0 my-auto'>
             <img src="/images/about-img.png" alt="" />
