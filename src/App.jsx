@@ -115,7 +115,7 @@ function App() {
             <h1 className='lg:text-[50px] text-5xl font-medium my-3'>FIL Lagos Schedule</h1>
           </div>
           <div className='my-4'>
-            <button className='bg-[#0CDD92] border-2 border-[#0CDD92] p-3 rounded-xl lg:w-auto w-full my-1 px-8'>Day1 , 3rd September</button>
+            {/* <button className='bg-[#0CDD92] border-2 border-[#0CDD92] p-3 rounded-xl lg:w-auto w-full my-1 px-8'>Day1 , 3rd September</button> */}
             {/* <button className='border-2 border-[#0CDD92] p-3 rounded-xl lg:ml-4 lg:w-auto my-1 w-full px-8'>Day2 , 4th September</button> */}
           </div>
           {topics.map((topic, index) => <div key={index} className='border-2 my-8 border-[#3679FB] p-10 rounded-[40px] lg:flex justify-between'>
