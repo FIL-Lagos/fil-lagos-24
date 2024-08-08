@@ -19,8 +19,8 @@ const Hero = () => {
         </a>
       </div>
       <div className="flex lg:-mb-52 -mb-16 justify-between">
-        <img className="w-[45%]" src="/images/fillagos-1.png" alt="" />
-        <img className="w-[45%]" src="/images/fillagos-2.png" alt="" />
+        <img className="w-[49%]" src="/images/fillagos-1.png" alt="" />
+        <img className="w-[49%]" src="/images/fillagos-2.png" alt="" />
       </div>
     </div>
   );

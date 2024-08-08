@@ -39,8 +39,8 @@ function App() {
         <Hero />
         <div id='about' className='lg:flex lg:pt-40 pt-16 pb-20 bg-[#131744] justify-between'>
           <div className='my-auto lg:order-1 lg:w-[60%] lg:p-10 p-6'>
-            <p className='text-[30px]'>ABOUT</p>
-            <h1 className='lg:text-[50px] text-5xl font-bold my-2'>FIL LAGOS</h1>
+            <p className='lg:text-[30px] '>ABOUT</p>
+            <h1 className='lg:text-[50px] text-4xl font-bold my-2'>FIL LAGOS</h1>
             <p className='lg:text-[20px]'>At FIL-Lagos.io, we will explore the transformative potential of decentralized storage and AI integration within the Filecoin ecosystem. This event is designed to provide insights into how these technologies are redefining the digital economy, driving sustainable growth, and creating new opportunities for innovation in Africa.            </p>
           </div>
           <div className='lg:w-[40%] lg:order-0 my-auto'>
@@ -49,8 +49,8 @@ function App() {
         </div>
         <section id='sponsors' className='lg:p-20 p-6 bg-[#090B22]'>
           <div>
-            <p className='text-[30px]'>MEET OUR</p>
-            <h1 className='lg:text-[50px] text-5xl font-bold my-3'>Sponsors</h1>
+            <p className='lg:text-[30px]'>MEET OUR</p>
+            <h1 className='lg:text-[50px] text-4xl font-bold my-3'>Sponsors</h1>
           </div>
           <div className='lg:flex justify-between lg:w-1/2 mx-auto'>
             <img className='lg:w-44 w-32 mx-auto' src="/images/sponsors/img1.png" alt="" />
@@ -94,8 +94,8 @@ function App() {
         </section> */}
         <section id='speakers' className='lg:p-20 p-6 bg-[#131744]'>
           <div>
-            <p className='text-[30px] text-[#F1BE07]'>DISCOVER</p>
-            <h1 className='lg:text-[50px] text-5xl font-medium my-3'>FIL Lagos Speakers</h1>
+            <p className='lg:text-[30px] text-[#F1BE07]'>DISCOVER</p>
+            <h1 className='lg:text-[50px] text-4xl font-medium my-3'>FIL Lagos Speakers</h1>
           </div>
           <div className='flex flex-wrap justify-between'>
             <SpeakersCard />
@@ -111,20 +111,20 @@ function App() {
         </section>
         <section id='agenda' className='lg:p-20 p-6 bg-[#090B22]'>
           <div>
-            <p className='text-[30px] text-[#F1BE07]'>JOIN US</p>
-            <h1 className='lg:text-[50px] text-5xl font-medium my-3'>FIL Lagos Schedule</h1>
+            <p className='lg:text-[30px] text-[#F1BE07]'>JOIN US</p>
+            <h1 className='lg:text-[50px] text-4xl font-medium my-3'>FIL Lagos Schedule</h1>
           </div>
           <div className='my-4'>
             {/* <button className='bg-[#0CDD92] border-2 border-[#0CDD92] p-3 rounded-xl lg:w-auto w-full my-1 px-8'>Day1 , 3rd September</button> */}
             {/* <button className='border-2 border-[#0CDD92] p-3 rounded-xl lg:ml-4 lg:w-auto my-1 w-full px-8'>Day2 , 4th September</button> */}
           </div>
-          {topics.map((topic, index) => <div key={index} className='border-2 my-8 border-[#3679FB] p-10 rounded-[40px] lg:flex justify-between'>
+          {topics.map((topic, index) => <div key={index} className='border-2 my-8 border-[#3679FB] lg:p-10 p-6 rounded-[40px] lg:flex justify-between'>
             <div>
               {/* <p className='text-[#F1BE07] text-[24px]'>9am</p> */}
-              <p className='text-[20px]'>The Zone Tech</p>
+              <p className='lg:text-[20px]'>The Zone Tech</p>
             </div>
             <div className='lg:w-[70%]'>
-              <p className='text-[#0CDD92] my-1 text-[30px]'>{topic}</p>
+              <p className='text-[#0CDD92] my-1 lg:text-[30px] text-xl'>{topic}</p>
               {/* <p className='text-[14px]'>Join us as we kick start the event  and get busy with building and understanding more about Filecoin visual machine</p> */}
             </div>
           </div>)}
