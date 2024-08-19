@@ -10,7 +10,7 @@ const FAQ = () => {
     },
     {
       question: "What if I have specific Nigeria travel questions?",
-      answer: "You can find information here"
+      answer: (<>You can find information  <a href="https://immigration.gov.ng/visa-on-arrival-process/">here</a></>)
     }
   ];
 

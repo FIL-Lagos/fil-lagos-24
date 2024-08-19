@@ -88,6 +88,21 @@ function App() {
       role: "Regional Lead, Filecoin Orbit Community, Africa",
       image: "martin.png"
     },
+    {
+      name: "Enoch Mbaebie",
+      role: "Regional Lead, Filecoin Orbit Community, Africa/Middle East",
+      image: "enoch.png"
+    },
+    {
+      name: "Temiloluwa Adelowo",
+      role: "Software Engineer, Unfold",
+      image: "temi.jpg"
+    },
+    {
+      name: "Adedamola Fakayode. T",
+      role: "Game Developer, AYOB Games",
+      image: "speaker-8.png"
+    },
   ]
 
   return (
@@ -155,7 +170,7 @@ function App() {
             <p className='lg:text-[30px] text-[#F1BE07]'>DISCOVER</p>
             <h1 className='lg:text-[50px] text-4xl font-medium my-3'>FIL Lagos Speakers</h1>
           </div>
-          <div className='flex flex-wrap justify-between'>
+          <div className='lg:grid grid-cols-3 gap-8'>
             {speakers.map((speaker, index) => <SpeakersCard key={index} speaker={speaker} />)}
             {/* <SpeakersCard />
             <SpeakersCard />

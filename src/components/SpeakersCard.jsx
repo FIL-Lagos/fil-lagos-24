@@ -2,7 +2,7 @@
 
 const SpeakersCard = ({speaker}) => {
   return (
-    <div className='lg:w-[32%] w-full my-4 rounded-[40px] border-2 border-[#3679FB]'>
+    <div className='w-full lg:my-0 my-6 rounded-[40px] border-2 border-[#3679FB]'>
       <img className="w-full lg:h-96 h-80 object-cover object-top	 rounded-t-[40px]" src={`/images/speakers/${speaker.image}`} alt="" />
       <div className="p-6">
         <p className="text-[20px]">{speaker.name}</p>
