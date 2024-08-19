@@ -62,6 +62,21 @@ function App() {
       role: "",
       image: "Stowell.jpg"
     },
+    {
+      name: "Harsh Gujarati ",
+      role: "Founder Tradinget Ltd",
+      image: "speaker-5.jpeg"
+    },
+    {
+      name: "Abimbola  Adebayo",
+      role: "Blockchain Developer",
+      image: "Abims.png"
+    },
+    {
+      name: "David uzochukwu",
+      role: "Security Researcher/ Node Operator",
+      image: "speaker-6.jpeg"
+    },
   ]
 
   return (
