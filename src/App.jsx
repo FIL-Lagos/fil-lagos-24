@@ -31,6 +31,38 @@ function App() {
     "Building Wallets",
     "NFT Storage"
   ];
+  const speakers = [
+    {
+      name: "Ayanfeoluwa Olajide",
+      role: "Lawyer in Blockchain",
+      image: "speaker-1.jpeg"
+    },
+    {
+      name: "Abiodun Awoyemi",
+      role: "Blockchain Developer",
+      image: "speaker-2.jpg"
+    },
+    {
+      name: "Emmanuel Tope",
+      role: "Ecosystem Builder",
+      image: "speaker-3.jpg"
+    },
+    {
+      name: "Faith Roberts",
+      role: "Web3 Developer",
+      image: "speaker-4.jpeg"
+    },
+    {
+      name: "Robert",
+      role: "",
+      image: "Robert.webp"
+    },
+    {
+      name: "Stowell",
+      role: "",
+      image: "Stowell.jpg"
+    },
+  ]
 
   return (
     <Fragment>
@@ -98,10 +130,10 @@ function App() {
             <h1 className='lg:text-[50px] text-4xl font-medium my-3'>FIL Lagos Speakers</h1>
           </div>
           <div className='flex flex-wrap justify-between'>
+            {speakers.map((speaker, index) => <SpeakersCard key={index} speaker={speaker} />)}
+            {/* <SpeakersCard />
             <SpeakersCard />
-            <SpeakersCard />
-            <SpeakersCard />
-            <SpeakersCard />
+            <SpeakersCard /> */}
           </div>
           <div className='flex justify-center mt-6'>
             <a href="https://bit.ly/fil-speaker" target='_blank'>
