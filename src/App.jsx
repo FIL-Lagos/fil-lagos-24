@@ -4,6 +4,7 @@ import HeaderNav from './components/HeaderNav'
 import FooterNav from './components/FooterNav'
 import SpeakersCard from './components/SpeakersCard'
 import Hero from './components/Hero'
+import FAQ from './components/FAQ'
 
 function App() {
   const topics = [
@@ -53,13 +54,13 @@ function App() {
       image: "speaker-4.jpeg"
     },
     {
-      name: "Robert",
-      role: "",
+      name: "Robert Dowling",
+      role: "FVM Developer",
       image: "Robert.webp"
     },
     {
-      name: "Stowell",
-      role: "",
+      name: "Porter Stowell",
+      role: "Head of Community, Storage Providers",
       image: "Stowell.jpg"
     },
     {
@@ -76,6 +77,16 @@ function App() {
       name: "David uzochukwu",
       role: "Security Researcher/ Node Operator",
       image: "speaker-6.jpeg"
+    },
+    {
+      name: "Allan Mang'eni",
+      role: "Technical lead - Wengi Web",
+      image: "speaker-7.jpeg"
+    },
+    {
+      name: "Kyanja Martin",
+      role: "Regional Lead, Filecoin Orbit Community, Africa",
+      image: "martin.png"
     },
   ]
 
@@ -187,6 +198,13 @@ function App() {
               <p className='text-[14px]'>Learn with us how to make money from filecoin and also explore the numerous financial opportunities in the ecosystem</p>
             </div>
           </div> */}
+        </section>
+        <section className='lg:p-20 p-6 bg-[#131744] mb-2'>
+          <div>
+            <p className='lg:text-[30px] text-[#F1BE07]'>LEARN MORE</p>
+            <h1 className='lg:text-[50px] text-4xl font-medium my-3'>FAQ</h1>
+          </div>
+          <FAQ />
         </section>
       </main>
       <FooterNav />
