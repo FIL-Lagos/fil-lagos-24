@@ -103,6 +103,11 @@ function App() {
       role: "Game Developer, AYOB Games",
       image: "speaker-8.png"
     },
+    {
+      name: "Timothy Ovie",
+      role: "Head of Community, Community Leads Africa",
+      image: "speaker-9.jpg"
+    },
   ]
 
   return (
