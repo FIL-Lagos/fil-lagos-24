@@ -108,6 +108,11 @@ function App() {
       role: "Head of Community, Community Leads Africa",
       image: "speaker-9.jpg"
     },
+    {
+      name: "Ubong Nkantah",
+      role: "Software Engineer",
+      image: "speaker-10.jpg"
+    },
   ]
 
   return (
