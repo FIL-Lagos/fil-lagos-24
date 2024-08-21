@@ -113,6 +113,16 @@ function App() {
       role: "Software Engineer",
       image: "speaker-10.jpg"
     },
+    {
+      name: "Femi Adegolu",
+      role: "CEO, Bchain Africa",
+      image: "speaker-11.jpeg"
+    },
+    {
+      name: "Juan Benet",
+      role: "Founder, Protocol Labs",
+      image: "juan.jpg"
+    },
   ]
 
   return (
