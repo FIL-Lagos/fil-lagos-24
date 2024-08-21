@@ -123,6 +123,11 @@ function App() {
       role: "Founder, Protocol Labs",
       image: "juan.jpg"
     },
+    {
+      name: "Monalisa Agbata",
+      role: "Web3 Marketing Director",
+      image: "monalisa.png"
+    },
   ]
 
   return (
