@@ -128,6 +128,11 @@ function App() {
       role: "Web3 Marketing Director",
       image: "monalisa.png"
     },
+    {
+      name: "Daniel Idowu",
+      role: "Technical Writer, Lagrange Labs",
+      image: "Idowu.jpg"
+    },
   ]
 
   return (
