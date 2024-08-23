@@ -133,6 +133,21 @@ function App() {
       role: "Technical Writer, Lagrange Labs",
       image: "Idowu.jpg"
     },
+    {
+      name: "Yuccee Blessings",
+      role: "",
+      image: "Blessing.jpeg"
+    },
+    {
+      name: "Ayomide Bajo",
+      role: "Lead tech ambassador, Phala network",
+      image: "speaker-13.png"
+    },
+    {
+      name: "Purity Ochuko",
+      role: "Community manager/ Digital marketer",
+      image: "speaker-12.jpeg"
+    },
   ]
 
   return (
