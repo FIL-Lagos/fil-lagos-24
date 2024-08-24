@@ -148,6 +148,11 @@ function App() {
       role: "Community manager/ Digital marketer",
       image: "speaker-12.jpeg"
     },
+    {
+      name: "Olabisi Idiong",
+      role: "",
+      image: "speaker-14.jpeg"
+    },
   ]
 
   return (
