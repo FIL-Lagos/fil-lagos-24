@@ -135,7 +135,7 @@ function App() {
     },
     {
       name: "Yuccee Blessings",
-      role: "",
+      role: "Lead, Filecoin Orbit Ibadan",
       image: "Blessing.jpeg"
     },
     {
@@ -152,6 +152,11 @@ function App() {
       name: "Olabisi Idiong",
       role: "",
       image: "speaker-14.jpeg"
+    },
+    {
+      name: "Nandit Mehra",
+      role: "CEO, Light House Storage",
+      image: "speaker-15.jpeg"
     },
   ]
 
