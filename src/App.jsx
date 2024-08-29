@@ -141,7 +141,7 @@ function App() {
     {
       name: "Ayomide Bajo",
       role: "Lead tech ambassador, Phala network",
-      image: "speaker-13.png"
+      image: "speaker-13.jpeg"
     },
     {
       name: "Purity Ochuko",
