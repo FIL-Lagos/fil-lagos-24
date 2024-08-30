@@ -158,6 +158,16 @@ function App() {
       role: "CEO, Light House Storage",
       image: "speaker-15.jpeg"
     },
+    {
+      name: "Eng.David Lumala ",
+      role: "CTO,Greenant.farm",
+      image: "david.jpg"
+    },
+    {
+      name: "Aguda Toluwani,  ",
+      role: "President/Community Manager, Web3 Unilag",
+      image: "speaker-16.png"
+    },
   ]
 
   return (
