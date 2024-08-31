@@ -168,6 +168,16 @@ function App() {
       role: "President/Community Manager, Web3 Unilag",
       image: "speaker-16.png"
     },
+    {
+      name: "Ndibe Chimuanya Collins ",
+      role: "UX/UI Designer",
+      image: "Chimuanya.jpg"
+    },
+    {
+      name: "Santiago Trujillo Zuluaga",
+      role: "DevRel , ChainSafe / web3.js",
+      image: "mainweb3js.png"
+    },
   ]
 
   return (
