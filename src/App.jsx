@@ -8,29 +8,82 @@ import FAQ from './components/FAQ'
 
 function App() {
   const topics = [
-    "Decentralized Storage Solutions with Filecoin",
-    "AI Integration within the Filecoin Ecosystem",
-    "Sustainable Development through Decentralized Technologies",
-    "Leveraging Filecoin for Digital Economy Transformation",
-    "Innovative Use Cases of Filecoin in Africa",
-    "Opportunities for Startups within the Filecoin Ecosystem",
-    "The Future of Data Economy with Filecoin",
-    "Building on Filecoin Virtual Machine (FVM)",
-    "Empowering Women in Web3 and Blockchain Technologies",
-    "Funding and Grant Opportunities in the Filecoin Ecosystem",
-    "Practical Applications of Decentralized Storage in Various Industries",
-    "Connecting the African Tech Community through Decentralization",
-    "Enhancing Project Security and Efficiency with Filecoin",
-    "Filecoin's Role in the Evolving Digital Landscape",
-    "Panel Discussions with Industry Leaders and Innovators",
-    "The FVM Imaginarium: Developer Tooling, Hackathons and other Opportunities for Builders",
-    "Hacking the Filecoin Ethereum Virtual Machine (FEVM)",
-    "The markets & data layer on Filecoin",
-    "Deploying the InterPlanetary File System (IPFS) in space",
-    "Integration with DeFi",
-    "Filecoin cross-chain interoperability",
-    "Building Wallets",
-    "NFT Storage"
+    {
+      title: "Registration & Welcome Coffee",
+      time: "9:00 AM - 9:30 AM"
+    },
+    {
+      title: "Welcome Note",
+      time: "9:30 AM - 9:45 AM"
+    },
+    {
+      title: "Keynote Address: The Future of the Web3 Ecosystem: Scaling with Filecoin, FVM, IPC",
+      time: "9:45 AM - 10:15 AM"
+    },
+    {
+      title: "Panel Discussion: The Future of Web3 & Blockchain in Africa |Building a Decentralized Future for Africa",
+      time: "10:15 AM - 11:00 AM"
+    },
+    {
+      title: "Break | Kahoot Games",
+      time: "11:00 AM - 11:20 AM"
+    },
+    {
+      title: "Technical Session: Building on the FVM",
+      time: "11:20 AM - 12:35 PM"
+    },
+    {
+      title: "Breakout Session 1: Web3 Adoption & Real-World Use Cases",
+      time: "12:35 PM - 12:55 PM"
+    },
+    {
+      title: "Lunch Break",
+      time: "12:55 PM - 1:10 PM"
+    },
+    {
+      title: "Breakout Session 2: Empowering Women in Web3 & Blockchain, The Role of Decentralized Storage in Web3",
+      time: "1:10 PM - 1:35 PM"
+    },
+    {
+      title: "How web3 changed my life: from dishwasher to DevRel",
+      time: "1:35 PM - 2:00 PM"
+    },
+    {
+      title: "Technical Talk: AI Integration on FVM",
+      time: "2:00 PM - 2:25 PM"
+    },
+    {
+      title: "Technical Talk: Depin | Scaling Filecoin with Akave",
+      time: "2:25 PM - 2:45 PM"
+    },
+    {
+      title: "Fireside Chat: Grants Opportunities in the Ecosystem",
+      time: "2:45 PM - 3:15 PM"
+    },
+    {
+      title: "The Role of Decentralized Storage in Web3",
+      time: "3:15 PM - 3:45 PM"
+    },
+    {
+      title: "Practical Applications of Decentralized Storage in Various Industries",
+      time: "3:45 PM - 4:00 PM"
+    },
+    {
+      title: "Opportunities for designers in Filecoin Africa",
+      time: "4:00 PM - 4:15 PM "
+    },
+    {
+      title: "Filecoin's Role in the Evolving Digital Landscape",
+      time: "4:15 PM - 4:30 PM"
+    },
+    {
+      title: "Closing Remarks & Next Steps: Become a FIL Builder - Bootcamp",
+      time: "4:30 PM - 5:00 PM"
+    },
+    {
+      title: "Networking & Wrap-Up",
+      time: "5:00 PM"
+    },
   ];
   const speakers = [
     {
@@ -269,10 +322,10 @@ function App() {
           {topics.map((topic, index) => <div key={index} className='border-2 my-8 border-[#3679FB] lg:p-10 p-6 rounded-[40px] lg:flex justify-between'>
             <div>
               {/* <p className='text-[#F1BE07] text-[24px]'>9am</p> */}
-              <p className='lg:text-[20px]'>The Zone Tech</p>
+              <p className='lg:text-[20px]'>{topic.time}</p>
             </div>
             <div className='lg:w-[70%]'>
-              <p className='text-[#0CDD92] my-1 lg:text-[30px] text-xl'>{topic}</p>
+              <p className='text-[#0CDD92] my-1 lg:text-[30px] text-xl'>{topic.title}</p>
               {/* <p className='text-[14px]'>Join us as we kick start the event  and get busy with building and understanding more about Filecoin visual machine</p> */}
             </div>
           </div>)}
