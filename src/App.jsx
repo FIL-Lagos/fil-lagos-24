@@ -53,7 +53,11 @@ function App() {
       time: "2:00 PM - 2:25 PM"
     },
     {
-      title: "Technical Talk: Depin | Scaling Filecoin with Akave",
+      title: "Technical Talk 1: Depin | Scaling Filecoin with Akave",
+      time: "2:25 PM - 2:45 PM"
+    },
+    {
+      title: "Technical Talk 2: Running a Node on Distributed Networks",
       time: "2:25 PM - 2:45 PM"
     },
     {
@@ -61,8 +65,12 @@ function App() {
       time: "2:45 PM - 3:15 PM"
     },
     {
-      title: "The Role of Decentralized Storage in Web3",
-      time: "3:15 PM - 3:45 PM"
+      title: "The Future of Data Economy With Filecoin",
+      time: "3:15 PM - 3:30 PM"
+    },
+    {
+      title: "Talk 1: The Role of Decentralized Storage in Web3",
+      time: "3:30 PM - 3:45 PM"
     },
     {
       title: "Practical Applications of Decentralized Storage in Various Industries",
@@ -230,6 +238,11 @@ function App() {
       name: "Santiago Trujillo Zuluaga",
       role: "DevRel , ChainSafe / web3.js",
       image: "mainweb3js.png"
+    },
+    {
+      name: "Dr Victor T. Odumuyiwa",
+      role: "Associate Professor, University of Lagos, NITHUB",
+      image: "_OGA9234.jpg"
     },
   ]
 
