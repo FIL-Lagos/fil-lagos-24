@@ -8,7 +8,7 @@ const Hero = () => {
         <p className="lg:text-[28px] text-xl">Empowering Africa&apos;s Digital Future: Innovations in the Filecoin Ecosystem        </p>
         <div className="flex justify-center my-2">
           <img className="mr-1" src="/images/uil_calender.png" alt="" />
-          <p>Sept 3rd, 2024, 9:00 AM GMT+1</p>
+          <p>Sept 11th - 12th, 2026, 9:00 AM GMT+1</p>
         </div>
         <div className="flex justify-center my-2">
           <img className="mr-1" src="/images/akar-icons_location.png" alt="" />
